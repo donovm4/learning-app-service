@@ -20,12 +20,29 @@
 
 - CI/CD support out-of-the-box
 - Tools:
-  - Azure Repos
-    - define your own build and release process
-  - GitHub
-  - BitBucket
-  - FTP
-  - local Git repositories on dev machines
+  - Automated deployment
+    - Azure Repos
+        - define your own build and release process
+        - build code in the cloud
+        - run tests
+        - generate releases from code
+        - push code to Azure Web App
+    - GitHub
+        - automated deployment directly from GitHub
+        - connect GitHub repository to Azure
+        - changes pushed to production branch are autmatically deployed
+    - BitBucket
+        - similar workflow to GitHub
+  - Manual deployment
+    - FTP
+        - FTP or FTPS
+        - traditional way of pushing code to hosting environents
+    - Git
+      - supply App Service with Git URL of remote repository
+    - `az webapp up`
+      - feature of `az` command
+    - `az webapp deploy`
+    - Visual Studio
 - can automatically sync code and future changes
 
 #### Visual Studio and FTP publishing

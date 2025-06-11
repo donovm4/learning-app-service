@@ -1,0 +1,8 @@
+sensitive*.tf
+*.tfstate
+*.tfstate.*
+**/.terraform/*
+.terraform.lock.hcl
+dotnet-install.sh
+notes.md
+DemoApp
