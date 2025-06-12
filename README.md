@@ -4,7 +4,7 @@
 
 ### What is an App Service
 
-- fully managed web application hosting platform
+- fully managed web application and REST API hosting platform
 - PaaS offering through Azure
   - user focuses on design and configuration
   - Azure handles infrastructure and scale
